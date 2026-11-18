@@ -317,7 +317,7 @@ class AboutPage extends StatelessWidget {
           // Clickable GitHub Repository URL
           TextButton.icon(
           onPressed: () async {
-            final Uri url = Uri.parse('https://github.com/your-username/your-repository'); // Replace with your actual GitHub link
+            final Uri url = Uri.parse('https://github.com/izzahfatin/baggage-fee.git'); // Replace with your actual GitHub link
             if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
               throw Exception('Could not launch $url');
             }
